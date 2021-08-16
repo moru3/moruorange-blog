@@ -1,0 +1,29 @@
+.iconImage {
+  text-align: center;
+}
+
+.explain {
+  list-style: none;
+}
+
+.name {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.explainBody {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.socialImages {
+  text-align: center;
+  list-style: none;
+}
+
+.socialImage {
+  display: inline;
+  margin: 0px 5px;
+}

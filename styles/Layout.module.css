@@ -1,0 +1,39 @@
+.layout {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  min-width: 400px;
+  flex: 8;
+}
+
+.sideBar {
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  flex-basis: 300px;
+}
+
+.author {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.categories {
+  text-align: center;
+}
