@@ -37,3 +37,5 @@ yarn-error.log*
 deploy.sh
 aws/*
 iam-user-deploy
+public/google*.html
+/public/rss/*
