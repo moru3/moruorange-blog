@@ -10,7 +10,7 @@ export default function ArticleList({ posts }) {
               <li className={styles.article} key={id}>
                 <div className={styles.title}><Link href={`/posts/${id}`}><a>{title}</a></Link></div>
                 <div className={styles.date}><Date dateString={created_at} /></div>
-                <div>{contentHtml.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').slice(0, 200)}</div>
+                <div className={styles.content}>{contentHtml.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').slice(0, 200)}.....</div>
               </li>
             )
             )}

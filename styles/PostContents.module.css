@@ -1,15 +1,16 @@
 .html {
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: 17px;
+    line-height: 2.0em;
+    font-family: "M PLUS Rounded 1c";
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 480px) {
     .html img {
         max-width: 500px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
     .html img {
         max-width: 100%;
     }

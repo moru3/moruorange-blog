@@ -11,9 +11,10 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 37px;
   font-weight: bold;
-  font-family: Yu Gothic,;
+  font-family: "M PLUS Rounded 1c";
+  /* font-family: Yu Gothic,; */
   margin-bottom: 10px;
 }
 
@@ -21,4 +22,10 @@
   font-size: 14px;
   font-family: Arial Black;
   margin-bottom: 10px;
+}
+
+.content {
+  font-size: 15px;
+  line-height: 1.5em;
+  font-family: "M PLUS Rounded 1c";
 }

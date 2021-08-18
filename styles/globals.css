@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "游ゴシック体", YuGothic, "游ゴシック Medium", 'Questrial', "Yu Gothic Medium", "游ゴシック", "Yu Gothic", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 

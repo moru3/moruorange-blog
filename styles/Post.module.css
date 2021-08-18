@@ -11,9 +11,10 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  font-family: Yu Gothic,;
+  /* font-family: Yu Gothic,; */
+  font-family: "M PLUS Rounded 1c";
   margin-bottom: 10px;
 }
 
