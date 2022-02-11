@@ -4,6 +4,11 @@
     font-family: "M PLUS Rounded 1c";
 }
 
+.html a {
+    color: #4682b4;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 480px) {
     .html img {
         max-width: 500px;
