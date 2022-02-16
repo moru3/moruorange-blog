@@ -9,14 +9,17 @@
     text-decoration: underline;
 }
 
+/* PC向け */
 @media screen and (min-width: 480px) {
     .html img {
         max-width: 500px;
     }
 }
 
+/* スマホ向け */
 @media screen and (max-width: 479px) {
     .html img {
-        max-width: 100%;
+        max-width: 479px;
+        width: 100%; 
     }
 }

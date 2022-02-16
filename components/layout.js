@@ -10,7 +10,7 @@ export default function Layout({ children, categories, posts, isList }) {
     return (
         <div className={styles.layout}>
             <Head>
-                <title>MORU&apos;S ORANGE BLOG</title>
+                <title>MORU&apos;S ORANGE BLOG - もるみかんBLOG</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"/>
                 <link rel="alternate" type="application/rss+xml" href="/rss/feed.xml" title="RSS2.0" />

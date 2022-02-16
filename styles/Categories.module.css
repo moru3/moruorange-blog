@@ -16,8 +16,15 @@
     display: inline;
 
     background-color: #f5f5f5;
-    margin: 10px 5px 10px 0px;
+    margin: 4px 5px 4px 0px;
     border: 1px solid #afadad;
     border-radius: 5px;
     padding: 3px;
+}
+
+.categoryArea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
