@@ -50,9 +50,8 @@ export default function Post({ post, categories, posts }) {
                     <title>{post.title} - MORU&apos;S ORANGE BLOG</title>
                     <meta name="twitter:card" content="summary"></meta>
                     <meta name="twitter:creator" content="@moru3"></meta>
-                    <meta property="og:title" content="`{post.title} - MORU&apos;S ORANGE BLOG`"/>
+                    <meta property="og:title" content={post.title + "- MORU&apos;S ORANGE BLOG"}/>
                     <meta property="og:description" content={post.contentHtml.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').slice(0, 50) + "...."}/>
-                    <meta property="og:image" content="/apple-touch-icon.png" />
                 </Head>
                 <div className={styles.main}>
                     <div className={styles.title}>{post.title}</div>
