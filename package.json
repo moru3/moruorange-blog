@@ -10,12 +10,18 @@
   },
   "dependencies": {
     "date-fns": "^2.22.1",
-    "next": "11.0.1",
+    "next": "12.3.3",
     "prismjs": "^1.24.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rehype-stringify": "^9.0.3",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "remark-iframes": "^4.0.5",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "unified": "^10.1.2",
+    "unified-stream": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "7.30.0",

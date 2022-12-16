@@ -15,14 +15,14 @@ export default function Categories({ categories }) {
 export function CategoryLinks({categories}) {
     return (
         <div className={styles.list}>
-            <p className={styles.categoryArea}>
-            {categories.map(({ id, name }) => (
-                <div className={styles.category} key={id}>
-                    <Link href={`/categories/${id}`}><a>{name}</a></Link>
+            <span className={styles.categoryArea}>
+            {categories.map(({ name }) => (
+                <div className={styles.category} key={name}>
+                    <Link href={`/categories/${name}`}><a>{name}</a></Link>
                 </div>
             )
             )}
-            </p>
+            </span>
         </div>
     )
 }

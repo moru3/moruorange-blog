@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
 
-import Date from '../../components/date'
-import styles from '../../styles/Post.module.css'
+import Date from '../../../components/date'
+import styles from '../../../styles/Post.module.css'
 
-import { getPosts, getPostById, getAllPostsIds } from '../../lib/posts'
-import Layout from '../../components/layout'
-import { getCategories } from '../../lib/categories'
-import { CategoryLinks } from '../../components/categories'
-import PostContents from '../../components/post'
+import { getPosts, getPostById, getAllPostsIds } from '../../../lib/posts'
+import Layout from '../../../components/layout'
+import { getCategories } from '../../../lib/categories'
+import { CategoryLinks } from '../../../components/categories'
+import PostContents from '../../../components/post'
 import Head from 'next/head'
-
 
 export async function getStaticPaths() {
     const paths = await getAllPostsIds()

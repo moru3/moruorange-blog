@@ -1,5 +1,5 @@
 import { getAllCategoryIds, getCategories } from "../../lib/categories"
-import { getPosts, getPostsByCategoryId } from "../../lib/posts"
+import { getPosts, getPostsByCategoryName } from "../../lib/posts"
 import ArticleList from '../../components/home'
 import Layout from '../../components/layout'
 
@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const allPosts = await getPosts()
-    const posts = await getPostsByCategoryId(params.id)
+    const posts = await getPostsByCategoryName(params.name)
     const categories = await getCategories()
     return {
         props: {
