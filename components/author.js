@@ -15,7 +15,7 @@ export default function Author() {
             </div>
             <div className={styles.socialImages}>
                 <li className={styles.socialImage}><a href="https://twitter.com/moru3" target="_blank" rel="noreferrer"><Image src={twitterMark} width={20} height={16} alt={"twitter mark"} loading="lazy"></Image></a></li>
-                <li className={styles.socialImage}><a href="https://www.youtube.com/channel/UCK_oaTkd_YxkWt1FLgIVf0Q" target="_blank" rel="noreferrer"><Image src={youtubeMark} width={20} height={16} alt={"youtube mark"} loading="lazy"></Image></a></li>
+                <li className={styles.socialImage}><a href="https://youtube.com/@iwaken_logs" target="_blank" rel="noreferrer"><Image src={youtubeMark} width={20} height={16} alt={"youtube mark"} loading="lazy"></Image></a></li>
             </div>
         </div>
     )
