@@ -1,6 +1,17 @@
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
 
 export default function BlogHeader({ title, contentHtml }) {
+    const [siteTitle, setSiteTitle] = useState();
+
+    useEffect(() => {
+        if (title === undefined) {
+            setSiteTitle("MORU'S ORANGE BLOG - もるみかんBLOG")
+        } else {
+            setSiteTitle(title + " - MORU'S ORANGE BLOG")
+        }
+    }, [title])
+
     return (
         <Head>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}></script>
@@ -12,7 +23,7 @@ export default function BlogHeader({ title, contentHtml }) {
                 gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}');
                 `
             }}/>
-            <title>MORU&apos;S ORANGE BLOG - もるみかんBLOG</title>
+            <title>{siteTitle}</title>
             <link rel="icon" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes" />
             <meta name="twitter:card" content="summary"></meta>
