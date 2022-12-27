@@ -40,3 +40,4 @@ iam-user-deploy
 public/google*.html
 /public/rss/*
 .env
+.env.production
